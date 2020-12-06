@@ -243,6 +243,9 @@
   border-color: #206592;
 }
 
+
+
+
  .content .btn::before, .content .btn::after{
     position: absolute;
     content: '';

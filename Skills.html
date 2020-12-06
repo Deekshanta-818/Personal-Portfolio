@@ -92,42 +92,18 @@
                 </div>
                 <div class="text">Node JS</div>
               </div>
-              <div class="card django">
+              <div class="card wp">
                 <div class="circle">
                   <div class="bar"></div>
                   <div class="box"><span></span></div>
                 </div>
-                <div class="text">Django</div>
+                <div class="text">Wordpress</div>
               </div>
           </div>
 
       
-          <script>
-            let options = {
-              startAngle: -1.55,
-              size: 150,
-              value: 0.85,
-              fill: {gradient: ['red']}
-            }
-            $(".circle .bar").circleProgress(options).on('circle-animation-progress',
-            function(event, progress, stepValue){
-              $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
-            });
-            $(".js .bar").circleProgress({
-              value: 0.50
-            });
-            $(".react .bar").circleProgress({
-              value: 0.60
-            });
-            $(".python .bar").circleProgress({
-              value: 0.50
-            });
-            $(".node .bar").circleProgress({
-              value: 0.65
-            });
-            $(".django .bar").circleProgress({
-              value: 0.60
-            });
+          <script src="./js/main.js">
+        
           </script>
 
     

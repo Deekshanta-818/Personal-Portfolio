@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deekshanta Paudel | Web Developer </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/Projects.css">
+    <link rel="stylesheet" href="./css/Contact.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,7 +21,7 @@
 
         <div class="nav-bar">
 
-            <a class="logo" rel="index" href="">
+            <a class="logo" rel="index" href="index.html">
                 <img src="./images/picturetopeople.org-ead31ddaa480fcd0538e3e1830526db9987dfa0a97b685878e.png" alt="" class="logo">    
                 
             </a>
@@ -50,8 +50,63 @@
 
         <!-- Content -->
 
-        <h1 class="text-center">Hdsjflfsljkfhsfl;sjflflsf</h1>
+        <h1 class="main-title text-center">Contact Me</h1>
+
+        <div class="container">
+            
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+               I would love to work with you on your ambitious project.
+                </p>
+      
+                <div class="info">
+                
+                  <div class="information">
+                    <img src="images/email.png" class="icon" alt="" />
+                    <p>deekshantapaudel@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="images/phone.png" class="icon" alt="" />
+                    <p>+977 9861736193</p>
+                  </div>
+                </div>
+      
+           
+              </div>
+      
+              <div class="contact-form">
+              
+      
+                <form action="./functionality/contact-handler.php" autocomplete="off">
+                  <h3 class="title">Contact us</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" placeholder="Username" maxlength="50" required/>
+                    
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input"  placeholder="Email" maxlength="50" required/>
+                    
+                  </div>
+
+                  <div class="input-container">
+                    <input type="text" name="subject" class="input" placeholder="Subject" maxlength="150" required/>
+                    
+                  </div>
+                
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input" placeholder="Enter message" maxlength="500" required></textarea>
+                    
+                  </div>
+                 <button style="padding: 6px 25px; border-radius: 10px; outline: none;" type="submit" name="submit">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      
 
         </div>
+        
 </body>
 </html>

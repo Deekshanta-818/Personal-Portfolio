@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 
 * {
     margin: 0;
@@ -174,7 +176,8 @@
 }
 .info h3 {
     font-size: 30px;
-    color: black;
+    color: silver;
+    font-family: 'Fredericka the Great', cursive;
     font-weight: bold;
 }
 .card:hover .info {

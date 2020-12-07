@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deekshanta Paudel | Web Developer </title>
+    <title>Deekshanta Paudel | Software Developer </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,7 +14,10 @@
 <link rel="shortcut icon" href="./images/Webp.net-resizeimage (1).png" type="image/x-icon">
 
 </head>
-<body>
+<body onload="loading()">
+
+   <div id="loader"></div>
+
     <div class="home">
 
       <!-- NavBar -->
@@ -28,19 +31,19 @@
 
 
             <nav>
-                <a rel="index"  href="index.html" ><i class="fa fa-home"></i></a>
-                <a rel="about"  href="About.html" ><i class="fa fa-user"></i></a>
-                <a rel="skills" href="Skills.html" ><i class="fa fa-cogs"></i></a>
-                <a rel="gallery" href="Projects.html" ><i class="fa fa-briefcase"></i></a>
-                <a rel="contact" href="Contact.html" ><i class="fa fa-envelope"></i></a>
+                <a href="index.html" ><i class="fa fa-home"></i></a>
+                <a href="About.html" ><i class="fa fa-user"></i></a>
+                <a href="Skills.html" ><i class="fa fa-cogs"></i></a>
+                <a href="Projects.html" ><i class="fa fa-briefcase"></i></a>
+                <a href="Contact.html" ><i class="fa fa-envelope"></i></a>
 
             </nav>
 
             <ul>
               
-                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/deekshanta.paudel/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
                 
             </ul>
             
@@ -74,9 +77,10 @@
 
     </div>
     
-        <script src="./js/main.js">
-            
+        <script src="./js/main.js"> 
         </script>
+
+      <script src="./js/loading.js"></script>
 
 
     

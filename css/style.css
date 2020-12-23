@@ -382,33 +382,19 @@
   z-index: 12;
 }
 
+@media (max-width:570px) {
 
-
-
-
-
-
-
-@media(max-width:930px) {
-
+  .content h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 10px;
+  }
 
 }
-
-@media(max-width:768px) {
-    
-}
-
-@media(max-width:480px) {
-    
-    .content h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-    .content p {
-        text-align: center;
-    }
-    .content .btn {
-        margin-left: 150px;
-    }
-
+@media (max-width:1200px) {
+  .clock {
+    display: none;
+  }
 }

@@ -39,6 +39,7 @@
     height: 100%;
     position: fixed;
     top:0;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

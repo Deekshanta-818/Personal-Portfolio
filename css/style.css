@@ -45,6 +45,7 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 3;
+  overflow: auto;
   min-height: 500px;
   box-shadow: 10px 10px 5px rgb(224, 38, 69)
 

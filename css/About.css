@@ -43,12 +43,12 @@
     z-index: 3;
     min-height: 500px;
     box-shadow: 10px 10px 5px rgb(224, 38, 69);
-    overflow: auto;
+    
 }
 .nav-bar nav {
     display: block;
     text-align: center;
-    
+    overflow: auto;
 }
 
 .nav-bar nav a{
@@ -131,7 +131,7 @@
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
-    
+    overflow: auto;
 }
 .nav-bar ul li a {
     padding: 15px 0;

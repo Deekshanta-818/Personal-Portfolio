@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    
 }
 
 .home {
@@ -15,7 +15,7 @@
     max-width: 4000px;
     background-size: cover;
     background-position: center;
-  
+    
     
 }
 
@@ -43,12 +43,13 @@
     z-index: 3;
     min-height: 500px;
     box-shadow: 10px 10px 5px rgb(224, 38, 69);
+    overflow: auto;
     
 }
 .nav-bar nav {
     display: block;
     text-align: center;
-    overflow: auto;
+    
 }
 
 .nav-bar nav a{
@@ -131,7 +132,7 @@
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
-    overflow: auto;
+    
 }
 .nav-bar ul li a {
     padding: 15px 0;

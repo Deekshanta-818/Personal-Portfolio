@@ -173,6 +173,7 @@
     left: 15%;
     z-index: 2;
     transform: translateY(-50%);
+    overflow: hidden;
 }
 
 .content h1 {
@@ -186,6 +187,7 @@
     color: transparent;
     font-weight: 900;
     font-family: 'Frozen';
+    
 }
 
 .content h1::before {

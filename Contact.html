@@ -43,7 +43,6 @@
               
                 <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://www.facebook.com/deekshanta.paudel/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="https://github.com/deekshanta-818/" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
             
@@ -90,16 +89,16 @@
                 <form action="https://formspree.io/f/xyybnyvr" autocomplete="off" method="POST" id="my-form">
                   <h3 class="title">Contact Me</h3>
                   <div class="input-container">
-                    <input type="text" name="name" class="input" placeholder="Username" maxlength="50" required/>
+                    <input autocomplete="on" type="text" name="name" class="input" placeholder="Username" maxlength="50" required/>
                     
                   </div>
                   <div class="input-container">
-                    <input type="email" name="email" class="input"  placeholder="Email" maxlength="50" required/>
+                    <input autocomplete="on" type="email" name="email" class="input"  placeholder="Email" maxlength="50" required/>
                     
                   </div>
 
                   <div class="input-container">
-                    <input type="text" name="subject" class="input" placeholder="Subject" maxlength="150" required/>
+                    <input autocomplete="on" type="text" name="subject" class="input" placeholder="Subject" maxlength="150" required/>
                     
                   </div>
                 
@@ -119,6 +118,12 @@
 
         <script src="./js/loading.js"></script>
         <script src="./js/contact.js"></script>
-        
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+<script>
+ ScrollReveal().reveal('.main-title', { delay: 500 });
+ ScrollReveal().reveal('.container', { delay: 1000 });
+ ScrollReveal().reveal('.user-img', { delay: 1500 });
+</script>
 </body>
 </html>

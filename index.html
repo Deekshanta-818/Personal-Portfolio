@@ -43,7 +43,7 @@
               
                 <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://www.facebook.com/deekshanta.paudel/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+               
                 <li><a href="https://github.com/deekshanta-818/" target="_blank"><i class="fa fa-github"></i></a></li>
                 
             </ul>
@@ -59,7 +59,7 @@
             <h1 class="neon">Hi, I am</h1><br>
             <h1 class="flux">Deekshanta Paudel</h1>
             <p>Web Developer / App Developer / Python Developer</p>
-            <a href="Contact.html"><button class="btn">Contact Me</button></a>
+            <a href="Contact.html" class="a"><button class="btn">Contact Me</button></a>
         </div>
 
         <!-- Clock -->
@@ -82,9 +82,14 @@
         </script>
 
       <script src="./js/loading.js"></script>
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-
-    
+    <script>
+        ScrollReveal().reveal('.neon', { delay: 600 });
+        ScrollReveal().reveal('.flux', { delay: 1100 });
+        ScrollReveal().reveal('p', { delay: 1500 });
+        ScrollReveal().reveal('.a', { delay: 1900 });
+    </script>
         
     
 </body>

@@ -191,13 +191,18 @@
     text-shadow: 0 0 3vw #F40A35;
     font-family: 'Kaushan Script', cursive;
   }
+
+  @font-face {
+    font-family: 'Cloister Black';
+    src: url(../images/CloisterBlack.ttf);
+}
   
   .flux {
     color: #426DFB;
     font-size: 9vw;
     line-height: 9vw;
     text-shadow: 0 0 3vw #2356FF;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Cloister Black', cursive;
   }
   
   .neon {
